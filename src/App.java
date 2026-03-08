@@ -11,7 +11,7 @@ public class App {
         double vdolar;
         final double COTACAO = 4.95;
 
-        System.out.println("Digite o Valor em dólar: ");
+        System.out.print("Digite o Valor em dólar: ");
         vdolar = scanner.nextDouble();
         System.out.printf("Valor convertido: R$ %.2f", vdolar * COTACAO);
         
